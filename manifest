@@ -1,7 +1,7 @@
 #MAGeCK.Test
 #Fri Mar 24 17:07:49 PDT 2017
 JVMLevel=
-LSID=urn\:lsid\:8080.ckmah.137.110.95.197\:genepatternmodules\:24\:1
+LSID=urn\:lsid\:broad.mit.edu\:cancer.software.genepattern.module.analysis\:00365
 author=Clarence Mah;Mesirov Lab
 categories=CRISPR
 commandLine=<run-with-env> -u mageck/0.5.5 mageck test <count.table> <control.ID> <gene.test.FDR.threshold> <keep.intermediate.files>  <normalization.method> <control.sgRNA> <treatment.id> <variance.from.all.samples> <sort.criteria> <remove.zero> <gene.log-fold.change.method> <output.prefix>  <normcounts.to.file> <p-value.adjustment.method>
