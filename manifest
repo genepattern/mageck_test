@@ -1,11 +1,11 @@
 #MAGeCK.Test
 #Fri Mar 24 17:07:49 PDT 2017
 JVMLevel=
-LSID=urn\:lsid\:broad.mit.edu\:cancer.software.genepattern.module.analysis\:00365
+LSID=urn\:lsid\:broad.mit.edu\:cancer.software.genepattern.module.analysis\:00365\:0.0.2
 author=Clarence Mah;Mesirov Lab
 categories=CRISPR
 commandLine=<run-with-env> -u mageck/0.5.5 mageck test <count.table> <control.ID> <gene.test.FDR.threshold> <keep.intermediate.files>  <normalization.method> <control.sgRNA> <treatment.id> <variance.from.all.samples> <sort.criteria> <remove.zero> <gene.log-fold.change.method> <output.prefix>  <normcounts.to.file> <p-value.adjustment.method>
-cpuType=anyf
+cpuType=any
 description=This subcommand tests and ranks sgRNAs and genes based on the read count tables provided.
 fileFormat=
 language=C
